@@ -1,0 +1,673 @@
+{
+    "default_patch_lock": "no_lock",
+    "rez_version": "2.18.0-hal.5",
+    "package_requests": [
+        "houdini-15..21",
+        "hal_shelves-1",
+        "python-2.7",
+        "rez_builder-2",
+        "setuptools_scm-1.15",
+        "sphinx_rtd_theme-0.4"
+    ],
+    "serialize_version": "4.3",
+    "resolved_packages": [
+        {
+            "variables": {
+                "index": null,
+                "version": "windows",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "platform"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "2.7.17-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "python"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "14.28",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "vc_redist_2019"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "19.0.561",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "houdini"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "AMD64",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "arch"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.12.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "six"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.17.1-hal.4",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "future"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "41.4.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "setuptools"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "hal_env"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "9.0.0.30729",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "msvc"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "228",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "pywin32"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "7.1.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "click"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.4.3-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "appdirs"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.3-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "chainmap"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.11.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "wrapt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.5.0-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "functools_lru_cache"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.7.0-hal.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "portalocker"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.9.19-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "concurrent_log_handler"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2018.8.24",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "certifi"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.0-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "cerberus"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "qt_py"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "5.3.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "pyyaml"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.6",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "enum34"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.4-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "deprecated"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "hal_icon"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.10.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "scandir"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.8.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "hal_config"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.2.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "hal_ui"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.23-hal.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "markupsafe"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.8-hal.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "jinja2"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.1.1-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "addict"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.17.3-hal.3",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "sentry_sdk"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.14.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "hal_paths"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.15.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "hal_log"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.8.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "hal_shelves"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.2.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "vessel"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.34.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "wheel"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "20.2.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "pip"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.1.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "rez_builder"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.31.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "git"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.15.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "setuptools_scm"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.1-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "snowballstemmer"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.2.0-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "pyparsing"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "16.8-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "packaging"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.1.3-hal.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "pygments"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2016.6.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "pytz"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.6.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "babel"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.14-hal.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "docutils"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.5.2.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "typing"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.0.4-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "chardet"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.7.1-hal.2",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "imagesize"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.7.9",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "alabaster"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.25.3",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "urllib3"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.6",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "idna"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.22.0",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "requests"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.8.5-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "sphinx"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.4.0-hal.1",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\ext",
+                "name": "sphinx_rtd_theme"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.6.5",
+                "repository_type": "filesystem",
+                "location": "\\\\af\\x\\app\\int",
+                "name": "hal_basics"
+            },
+            "key": "filesystem.variant"
+        }
+    ],
+    "num_loaded_packages": 161,
+    "requested_timestamp": null,
+    "host": "P21A0015.aivfx.intra",
+    "user": "caoqi.chen",
+    "package_filter": [
+        {
+            "excludes": [
+                "range(roxy-2.10)",
+                "range(cffi-1.12.0)",
+                "range(maya_utils-2.5.0)",
+                "range(shotgun_email_bridge-1.2.0)",
+                "range(nuke-13.1.1.genio.alpha3)",
+                "range(deadline_set_priority-1.1.5-test)",
+                "range(deadline_set_priority-1.1.5-test2)",
+                "range(deadline_set_priority-999.0.0.dev)",
+                "glob(*.haldev*)",
+                "glob(*-linux.*)",
+                "glob(*-halbeta.*)",
+                "range(nuke_merge_median-1.1.0-hal.5)",
+                "range(rabbitmq_deployment-3.7.8)",
+                "range(nuke_mm_colortarget-2.0.0-hal.4)",
+                "range(secret_api-1.3.0)",
+                "range(bcrypt-3.2.0)",
+                "range(houdini-18.5.338)",
+                "range(pynacl-1.3.0)",
+                "range(pyinstaller-3.4.0)",
+                "range(cryptography-2.3.0)",
+                "range(git-2.15.0-hal.1)",
+                "range(legacy_hal_globallibraries-1.4.11)",
+                "range(hal_comms-1.1.0)",
+                "range(asperait-1.10.1)",
+                "range(asperait-1.11.0)",
+                "range(asperait-1.12.0)",
+                "range(shotgun_events_plugins-4.1.0)",
+                "range(shotgun_events_plugins-4.6)",
+                "range(maya_playblast-1.6.4)",
+                "range(hal_log-1.4.5)",
+                "range(hal_log-1.5.0)",
+                "range(portalocker-1.7.0-hal1)",
+                "range(hal_config-1.4.0)",
+                "range(hal_config-1.4.1)",
+                "range(hal_shelves-1.9.0)",
+                "range(pycharm-2018.3.7)",
+                "range(maya_scene_io-0.7.2)"
+            ]
+        }
+    ],
+    "arch": "AMD64",
+    "solve_time": 0.7220001220703125,
+    "building": true,
+    "implicit_packages": [
+        "~platform==windows",
+        "~arch==AMD64",
+        "~os==windows-10.0.19041",
+        "hal_basics-1"
+    ],
+    "parent_suite_path": null,
+    "suite_context_name": null,
+    "created": 1651480746,
+    "graph": "{'nodes': [((('fillcolor', '#AAFFAA'), ('fontsize', 10), ('style', 'filled')), [('_62', 'alabaster-0.7.9[]'), ('_63', 'urllib3-1.25.3[]'), ('_60', 'chardet-3.0.4-hal.1[0]'), ('_61', 'imagesize-0.7.1-hal.2[0]'), ('_66', 'sphinx-1.8.5-hal.1[0]'), ('_67', 'sphinx_rtd_theme-0.4.0-hal.1[]'), ('_64', 'idna-2.6[]'), ('_65', 'requests-2.22.0[]'), ('_68', 'hal_basics-1.6.5[]'), ('_17', 'future-0.17.1-hal.4[0]'), ('_16', 'six-1.12.0[]'), ('_15', 'arch-AMD64[]'), ('_14', 'houdini-19.0.561[0]'), ('_13', 'vc_redist_2019-14.28[0]'), ('_12', 'python-2.7.17-hal.1[1]'), ('_11', 'platform-windows[]'), ('_19', 'hal_env-1.2.0[]'), ('_18', 'setuptools-41.4.0[0]'), ('_39', 'markupsafe-0.23-hal.2[]'), ('_38', 'hal_ui-1.2.1[0]'), ('_31', 'qt_py-1.2.1[]'), ('_30', 'cerberus-1.1.0-hal.1[]'), ('_33', 'enum34-1.1.6[]'), ('_32', 'pyyaml-5.3.1[0]'), ('_35', 'hal_icon-1.1.0[]'), ('_34', 'deprecated-1.2.4-hal.1[]'), ('_37', 'hal_config-1.8.0[0]'), ('_36', 'scandir-1.10.0[0]'), ('_59', 'typing-3.5.2.2[]'), ('_58', 'docutils-0.14-hal.2[0]'), ('_53', 'pyparsing-2.2.0-hal.1[]'), ('_52', 'snowballstemmer-1.2.1-hal.1[]'), ('_51', 'setuptools_scm-1.15.0[]'), ('_50', 'git-2.31.1[0]'), ('_57', 'babel-2.6.0[]'), ('_56', 'pytz-2016.6.1[]'), ('_55', 'pygments-2.1.3-hal.2[0]'), ('_54', 'packaging-16.8-hal.1[]'), ('_28', 'concurrent_log_handler-0.9.19-hal.1[]'), ('_29', 'certifi-2018.8.24[]'), ('_26', 'functools_lru_cache-1.5.0-hal.1[]'), ('_27', 'portalocker-1.7.0-hal.2[0]'), ('_24', 'chainmap-1.0.3-hal.1[]'), ('_25', 'wrapt-1.11.1[]'), ('_22', 'click-7.1.2[]'), ('_23', 'appdirs-1.4.3-hal.1[]'), ('_20', 'msvc-9.0.0.30729[0]'), ('_21', 'pywin32-228[0]'), ('_48', 'pip-20.2.0[0]'), ('_49', 'rez_builder-2.1.0[]'), ('_40', 'jinja2-2.8-hal.2[]'), ('_41', 'addict-2.1.1-hal.1[]'), ('_42', 'sentry_sdk-0.17.3-hal.3[0]'), ('_43', 'hal_paths-1.14.0[]'), ('_44', 'hal_log-1.15.0[0]'), ('_45', 'hal_shelves-1.8.2[]'), ('_46', 'vessel-1.2.0[0]'), ('_47', 'wheel-0.34.2[0]')]), ((('fillcolor', '#F6F6F6'), ('fontsize', 10), ('style', 'filled,dashed')), [('_99', 'setuptools-34.3+'), ('_98', 'qt_py-1.0..2'), ('_97', 'hal_icon-1'), ('_96', 'hal_config-1'), ('_95', 'deprecated-1.2'), ('_94', 'scandir-1.5..1.11'), ('_93', 'pyyaml-3.5..5.4'), ('_92', 'hal_env-1.2..2'), ('_91', 'cerberus-1.1'), ('_90', 'chainmap-1.0'), ('_69', 'platform-windows'), ('_88', 'python-2.7..3.5'), ('_89', 'wrapt-1.10..1.12'), ('_84', 'python-2.6..3.9'), ('_85', 'portalocker-1.7'), ('_86', 'setuptools-41..100'), ('_87', 'python-2'), ('_80', 'python-2.7..3.9'), ('_81', 'python-2.4..4'), ('_82', 'python-2.7..4.0'), ('_83', 'pywin32-228'), ('_108', 'sentry_sdk-0.17.3'), ('_109', 'functools_lru_cache-1.5.0-hal.1'), ('_107', 'hal_paths-1'), ('_102', 'certifi'), ('_103', 'houdini'), ('_104', 'hal_config-1.8..2'), ('_105', 'hal_env-1'), ('_106', 'concurrent_log_handler-0.9'), ('_119', 'pip-18.0..21'), ('_118', 'wheel-0.29..0.35'), ('_113', 'jinja2-2.8'), ('_112', 'click-6.6..8.0'), ('_111', 'appdirs-1.4'), ('_110', 'addict-2.1'), ('_117', 'hal_ui-0..2'), ('_116', 'hal_log-1'), ('_115', '~python-2.7..4'), ('_114', '~pyside-1.2'), ('_126', 'chardet-3.0.2..3.1'), ('_127', 'certifi-2017.4.17..2020'), ('_124', 'python-2.6..4'), ('_125', 'pytz-2015.7..2018.4'), ('_122', 'pyparsing-2.2'), ('_123', 'six-1'), ('_120', 'vessel-1'), ('_121', 'git-2.14..3'), ('_128', 'idna-2.5..2.9'), ('_129', 'urllib3-1.21.1..1.26'), ('_131', 'babel-2.3..2.7'), ('_130', 'alabaster-0.7..0.8'), ('_133', 'imagesize-0.7..1.1'), ('_132', 'docutils-0.14'), ('_135', 'packaging-16.8..17.2'), ('_134', 'jinja2-2.8..2.11'), ('_137', 'requests-2.10..3'), ('_136', 'pygments-2.1..2.3'), ('_139', 'six-1.10..1.14'), ('_138', 'setuptools'), ('_140', 'snowballstemmer-1.2'), ('_141', 'typing-3.5'), ('_142', 'sphinx-1.4..2'), ('_79', 'msvc-9.0'), ('_78', 'arch-AMD64'), ('_75', 'python-2.7..3.8'), ('_74', 'future-0.17'), ('_77', 'six-1.10..1.13'), ('_76', 'setuptools-34.3..100'), ('_71', 'vc_redist_2019-14.28'), ('_70', '!python_embedded'), ('_73', 'python-2.7+<2_'), ('_72', 'python-2.7..4'), ('_100', 'enum34-1.1'), ('_101', 'markupsafe-0.23+')]), ((('fillcolor', '#FFFFAA'), ('fontsize', 10), ('style', 'filled,dashed')), [('_9', '~os==windows-10.0.19041'), ('_8', '~arch==AMD64'), ('_7', '~platform==windows'), ('_6', 'sphinx_rtd_theme-0.4'), ('_5', 'setuptools_scm-1.15'), ('_4', 'rez_builder-2'), ('_3', 'python-2.7'), ('_2', 'hal_shelves-1'), ('_1', 'houdini-15..21'), ('_10', 'hal_basics-1')])], 'edges': [((('arrowsize', '0.5'),), [('_99', '_18'), ('_98', '_31'), ('_97', '_35'), ('_96', '_37'), ('_95', '_34'), ('_94', '_36'), ('_93', '_32'), ('_92', '_19'), ('_91', '_30'), ('_90', '_24'), ('_62', '_124'), ('_63', '_72'), ('_60', '_72'), ('_60', '_69'), ('_61', '_72'), ('_61', '_69'), ('_66', '_130'), ('_66', '_131'), ('_66', '_132'), ('_66', '_133'), ('_66', '_134'), ('_66', '_135'), ('_66', '_136'), ('_66', '_88'), ('_66', '_137'), ('_66', '_138'), ('_66', '_139'), ('_66', '_140'), ('_66', '_69'), ('_66', '_141'), ('_67', '_72'), ('_67', '_142'), ('_64', '_72'), ('_65', '_126'), ('_65', '_127'), ('_65', '_128'), ('_65', '_72'), ('_65', '_129'), ('_69', '_11'), ('_88', '_12'), ('_89', '_25'), ('_84', '_12'), ('_85', '_27'), ('_86', '_18'), ('_87', '_12'), ('_80', '_12'), ('_81', '_12'), ('_82', '_12'), ('_83', '_21'), ('_108', '_42'), ('_109', '_26'), ('_8', '_15'), ('_7', '_11'), ('_6', '_67'), ('_5', '_51'), ('_4', '_49'), ('_3', '_12'), ('_2', '_45'), ('_1', '_14'), ('_107', '_43'), ('_17', '_73'), ('_17', '_69'), ('_16', '_72'), ('_14', '_69'), ('_14', '_71'), ('_14', '_3'), ('_13', '_69'), ('_12', '_69'), ('_12', '_70'), ('_10', '_68'), ('_102', '_29'), ('_19', '_74'), ('_19', '_75'), ('_19', '_76'), ('_19', '_77'), ('_18', '_72'), ('_18', '_69'), ('_103', '_14'), ('_104', '_37'), ('_105', '_19'), ('_106', '_28'), ('_119', '_48'), ('_118', '_47'), ('_113', '_40'), ('_112', '_22'), ('_111', '_23'), ('_110', '_41'), ('_117', '_38'), ('_116', '_44'), ('_115', '_12'), ('_126', '_60'), ('_127', '_29'), ('_124', '_12'), ('_125', '_56'), ('_122', '_53'), ('_123', '_16'), ('_120', '_46'), ('_121', '_50'), ('_128', '_64'), ('_129', '_63'), ('_39', '_80'), ('_38', '_95'), ('_38', '_96'), ('_38', '_97'), ('_38', '_73'), ('_38', '_98'), ('_38', '_99'), ('_38', '_100'), ('_31', '_72'), ('_30', '_75'), ('_30', '_86'), ('_33', '_88'), ('_32', '_69'), ('_32', '_87'), ('_34', '_89'), ('_34', '_72'), ('_37', '_90'), ('_37', '_91'), ('_37', '_74'), ('_37', '_92'), ('_37', '_73'), ('_37', '_93'), ('_37', '_76'), ('_37', '_77'), ('_37', '_94'), ('_36', '_3'), ('_36', '_69'), ('_59', '_88'), ('_58', '_69'), ('_58', '_87'), ('_53', '_72'), ('_52', '_72'), ('_51', '_72'), ('_51', '_121'), ('_50', '_69'), ('_57', '_124'), ('_57', '_125'), ('_56', '_72'), ('_55', '_75'), ('_55', '_69'), ('_54', '_72'), ('_54', '_122'), ('_54', '_123'), ('_131', '_57'), ('_130', '_62'), ('_133', '_61'), ('_132', '_58'), ('_135', '_54'), ('_134', '_40'), ('_137', '_65'), ('_136', '_55'), ('_139', '_16'), ('_138', '_18'), ('_28', '_84'), ('_28', '_85'), ('_29', '_72'), ('_26', '_3'), ('_27', '_80'), ('_27', '_69'), ('_27', '_83'), ('_24', '_82'), ('_22', '_80'), ('_23', '_81'), ('_20', '_69'), ('_20', '_78'), ('_21', '_76'), ('_21', '_69'), ('_21', '_3'), ('_21', '_79'), ('_48', '_72'), ('_48', '_76'), ('_48', '_118'), ('_48', '_69'), ('_49', '_119'), ('_49', '_72'), ('_49', '_120'), ('_40', '_101'), ('_40', '_75'), ('_41', '_72'), ('_42', '_102'), ('_42', '_80'), ('_42', '_103'), ('_43', '_74'), ('_43', '_104'), ('_43', '_105'), ('_43', '_72'), ('_43', '_76'), ('_43', '_77'), ('_44', '_106'), ('_44', '_74'), ('_44', '_96'), ('_44', '_107'), ('_44', '_73'), ('_44', '_108'), ('_44', '_99'), ('_44', '_109'), ('_45', '_110'), ('_45', '_111'), ('_45', '_112'), ('_45', '_113'), ('_45', '_114'), ('_45', '_115'), ('_45', '_96'), ('_45', '_116'), ('_45', '_107'), ('_45', '_117'), ('_45', '_76'), ('_46', '_69'), ('_47', '_72'), ('_47', '_69'), ('_140', '_52'), ('_141', '_59'), ('_142', '_66'), ('_79', '_20'), ('_78', '_15'), ('_75', '_12'), ('_74', '_17'), ('_77', '_16'), ('_76', '_18'), ('_71', '_13'), ('_73', '_12'), ('_72', '_12'), ('_100', '_33'), ('_101', '_39')])]}",
+    "failure_description": null,
+    "package_orderers": null,
+    "package_paths": [
+        "C:\\Users\\caoqi.chen\\packages",
+        "C:\\_hal\\rez_local_cache\\int",
+        "C:\\_hal\\rez_local_cache\\ext",
+        "\\\\af\\x\\app\\int",
+        "\\\\af\\x\\app\\ext"
+    ],
+    "platform": "windows",
+    "rez_path": "\\\\af\\x\\app\\ext\\rez\\2.18.0-hal.5\\platform-windows\\rez",
+    "status": "solved",
+    "from_cache": false,
+    "timestamp": 1651480746,
+    "caching": false,
+    "load_time": 0.0,
+    "os": "windows-10.0.19041",
+    "patch_locks": {}
+}
